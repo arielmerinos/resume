@@ -204,7 +204,7 @@
   \textcolor{emphasis}{\textbf{#1}}\par
   \begin{description}[font=\color{accent},style=multiline,leftmargin=1.25em]
   \item[\emailsymbol] #2
-  \item[\small\mailsymbol] #3
+  \item[\small\phonesymbol] #3
   \end{description}
 %   \medskip
 }

@@ -1,23 +1,10 @@
-%%%%%%%%%%%%%%%%%
-% This is an example CV created using altacv.cls (v1.1, 21 November 2016) written by
-% LianTze Lim (liantze@gmail.com), based on the 
-% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
-% 
-%% It may be distributed and/or modified under the
-%% conditions of the LaTeX Project Public License, either version 1.3
-%% of this license or (at your option) any later version.
-%% The latest version of this license is in
-%%    http://www.latex-project.org/lppl.txt
-%% and version 1.3 or later is part of all distributions of LaTeX
-%% version 2003/12/01 or later.
-%%%%%%%%%%%%%%%%
 
 %% If you want to use \orcid or the
 %% academicons icons, add "academicons"
 %% to the \documentclass options. 
 %% Then compile with XeLaTeX or LuaLaTeX.
 % \documentclass[10pt,a4paper,academicons]{altacv}
-\documentclass[10pt,a4paper]{altacv}
+\documentclass[10pt,letterpaper]{altacv}
 
 %% AltaCV uses the fontawesome and academicon fonts
 %% and packages. 
@@ -35,7 +22,7 @@
 
 % If using pdflatex:
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
 \usepackage[default]{lato}
 
 % If using xelatex or lualatex:
@@ -59,20 +46,19 @@
 \addbibresource{sample.bib}
 
 \begin{document}
-\name{Grant Morgan}
-  \tagline{Scientist \& Part Time Hacker}
+\name{Kevin Ariel Merino Peña}
+  \tagline{Estudiante de Ciencias de la computación}
 % Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
-\photo{2.5cm}{me}
+\photo{2.5cm}{ari}
 \personalinfo{%
   % Not all of these are required!
   % You can add your own with \printinfo{symbol}{detail}
-  \email{gmorgan2@ucmerced.edu}
-%   \phone{000-00-0000}
-  \mailaddress{1230 East Alexander Ave, Merced, CA 95340}
-  \location{Merced, CA}
-  \homepage{grantalexandermorgan.github.io/}
-  \twitter{Grant Morgan}
-  \linkedin{linkedin.com/in/grantmorgan}
+  \email{arielmerino@ciencias.unam.mx}
+  \phone{+52 55 2106 4333}
+  \mailaddress{Tecalli 35 , Chimalhuacán Edoméx, 56366}
+  \homepage{arielmerin.github.io/}
+  \twitter{@Arielmerineau}
+  \linkedin{linkedin.com/in/arielmerino/}
 %   \github{} % I'm just making this up though.
 %   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
 }
@@ -86,74 +72,65 @@
 %% You can always just use \marginpar{...} if you do
 %% not need to align the top of the contents to any
 %% \cvsection title in the "main" bar.
-\cvsection[page1sidebar]{Experience}
+\cvsection[page1sidebar]{Educación}
 
-\cvevent{Undergraduate Researcher }{University of California, Merced}{Fall 2015 -- Ongoing}{Merced, CA}
-\begin{itemize}
-\item presented research regarding a possible cure for type I Diabetes-- focused on Potential for Pluripotent Stem Cells
-\item Catalogued Public Health Risks for Merced County, as well as a strategy for overcoming them
-\item Reviewed the Efficacy of combined treatment for Social Phobia, and made a case for changing current singular treatment dynamics
-\item Explored the causes of California's drought, and investigated potential solutions for water conservation- from electric freight trains to gray water toilets!
-\end{itemize}
+\cvevent{Licenciatura en Ciencias de la Computación}{Facultad de Ciencias, UNAM}{Agosto 2019 -- en curso}{Ciudad Universitaria, Coyoacán}
 
 \divider
 
-\cvevent{Volunteer \& Hacker}{HackMerced}{Spring 2015 -- ongoing}{Merced, CA}
+\cvevent{Bachillerato General}{Escuela Nacional Preparatoria No 2 \ " \ Erasmo Castellanos Quinto"}{Generación 2016}{ Av. Río Churubusco 1418}
 \begin{itemize}
-\item Oversaw UC Merced's first Hackathon Event, with over 300+ engineers!
-\item Co-Creator of Bip, The World's First Hackathon Travel App (Winner of CalHacks Most Entreprenuerial App, Best Travel App 2016)
+\item 1$^{er} $ Lugar Premio Oratoria (UNISEF- ERASMUN)
+\item 2$^{do} $ Lugar Interpreparatoriano en Informática
+\item 3$^{er} $ Lugar Interpreparatoriano en Educación para la Salud
+\item 3$^{er}$ Lugar Olimpliada etimológica (Griego)
 \end{itemize}
+
+
+\cvsection{Experiencia}
+
+\cvevent{Monitorista y logística}{Amazon DMX1, DMX3}{Junio 2019 -- Agosto 2019}{Azcapotzalco, CDMX}
 
 \divider
 
-\cvevent{Immanuel Alumnus with Honors}{Immanuel High School}{Class of 2015}{Reedley, CA}
-\begin{itemize}
-\item AP Scholar
-\item Honor Scholar with Distinction
-\item Student Council Executive
-\item Immanuel Scholars Lamp \& Star
-\item Immanuel "Big I" Award
-\end{itemize}
+\cvevent{Ventas y atención al cliente}{Grupo Thor}{Junio 2018 -- Agosto 2018}{Chimalhuacán, Edo. Méx.}
+
+\cvsection{Filosofía de vida}
+\begin{quote}
+	``La vida no se trata de encontrarse a uno mismo, sino de crearse a sí mismo.''
+\end{quote}
 
 
-% \divider
-
-% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
-
-% \begin{itemize}
-% \item Joined the company as employe \#20 and female employee \#1
-% \item Developed targeted advertisement in order to use user's search queries and show them related ads
-% \end{itemize}
-
-\cvsection{A Day of My Life}
+\cvsection{Un día en mi vida}
 
 % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
 % \wheelchart{outer radius}{inner radius}{
 % comma-separated list of value/text width/color/detail}
 \wheelchart{1.5cm}{0.5cm}{%
-  10/13em/accent!30/Sleeping \& dreaming about research, 
-  25/9em/accent!60/Attending Lectures \& Taking Notes,
-  5/12em/accent!10/Programming \& Hacking, 
-  20/12em/accent!40/Social Media,
-  5/8em/accent!20/Group Study Sessions (Never too much studying!),
-  30/9em/accent/Presenting Research or working on projects,
-  5/8em/accent!20/Playing with my dog Max
+  10/13em/accent!30/Dorimir \& descansar, 
+  25/9em/accent!60/Aprendiendo \& tomando cursos online,
+  5/12em/accent!10/Programar y resolver retos, 
+  20/12em/accent!40/Cocinar \& ejercitarme,
+  5/8em/accent!20/Sesiones de estudio en grupo (Nunca es demasiado),
+  30/9em/accent/Realizando proyectos personales en computación,
+  5/8em/accent!20/Redes sociales y entretenimiento
 }
+
+\cvsection{Fortalezas}
+
+\cvtag{Autodidacta}
+\cvtag{Trabaja duro} 
+\cvtag{Comunicación asertiva}
+\cvtag{Proactivo} 
+
+\divider\smallskip
+
+\cvtag{Trabajo en equipo}
+\cvtag{Análisis estadístico \& ensayo de hipótesis}
+\cvtag{Graph Theory}
+\cvtag{Algoritmos}
 
 \clearpage
 
-\cvsection[page2sidebar]{Undergraduate Research}
-
-\nocite{*}
-
-\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Review Articles}},type=book]
-
-\divider
-
-\printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Course Articles}}, type=article]
-
-\divider
-
-\printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Poster Presentations}},type=article]
 
 \end{document}
